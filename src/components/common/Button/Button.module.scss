@@ -1,0 +1,17 @@
+@use "../../../utils/colors";
+
+.header__button {
+  background: colors.$primary;
+  border: none;
+  border-radius: 50px;
+  width: 100px;
+  height: 34px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header__button:disabled,
+.header__button[disabled] {
+  background: rgba(180, 180, 180, 1);
+  color: white;
+}

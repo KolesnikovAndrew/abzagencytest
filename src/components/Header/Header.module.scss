@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+
+  justify-content: center;
+
+  padding: 13px 16px;
+  gap: 14px;
+}
+
+.header__ul {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}

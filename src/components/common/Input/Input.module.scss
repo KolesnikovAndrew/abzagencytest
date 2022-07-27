@@ -1,0 +1,47 @@
+$error_color: rgba(203, 61, 64, 1);
+
+//Inputs
+.input__box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  &:hover {
+    .input__label {
+      top: -15px;
+    }
+  }
+}
+
+.input,
+.input__error {
+  width: 328px;
+  height: 54px;
+  padding-left: 10px;
+  border: 1px solid #d0cfcf;
+  border-radius: 4px;
+  color: rgba(126, 126, 126, 1);
+  &:focus + .input__label {
+    top: -15px;
+  }
+}
+
+.input__error {
+  border: 1px solid $error_color;
+}
+
+.input__label {
+  position: absolute;
+  display: block;
+  left: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  top: 10px;
+  background-color: white;
+  color: #d0cfcf;
+  padding: 5px;
+  z-index: 9;
+}
+
+.error__message {
+  color: $error_color;
+}

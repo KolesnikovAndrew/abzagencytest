@@ -1,0 +1,30 @@
+.registration__form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.registration__form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+}
+
+//Select role
+.select__role {
+  text-align: left;
+  align-self: flex-start;
+  padding-left: 15px;
+}
+
+input[name="role"] {
+  accent-color: #00bdd3;
+}
+input[name="photo"] {
+  width: 328px;
+  height: 54px;
+  background-color: #00bdd3;
+}

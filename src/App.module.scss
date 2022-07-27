@@ -1,0 +1,32 @@
+@use "./utils/colors";
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.App {
+  background-color: colors.$bg;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  padding: 0 20px;
+  line-height: 40px;
+}
