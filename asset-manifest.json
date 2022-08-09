@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/abzagencytest/static/css/main.05b1ddbc.css",
-    "main.js": "/abzagencytest/static/js/main.910c7ea7.js",
+    "main.css": "/abzagencytest/static/css/main.142c4c18.css",
+    "main.js": "/abzagencytest/static/js/main.b18a3cfe.js",
     "static/js/787.3ae7b0b8.chunk.js": "/abzagencytest/static/js/787.3ae7b0b8.chunk.js",
     "static/media/hero-bg.png": "/abzagencytest/static/media/hero-bg.f09745ecfb59d899d06d.png",
     "static/media/success-image.svg": "/abzagencytest/static/media/success-image.0d3202ba11b04fa7364b0f83ce42aea5.svg",
     "static/media/Logo.svg": "/abzagencytest/static/media/Logo.8bb55362d01d55393ccc5476d96f0c14.svg",
     "static/media/Preloader.svg": "/abzagencytest/static/media/Preloader.0aaf07f39acaa32ce036564ce35dba88.svg",
     "index.html": "/abzagencytest/index.html",
-    "main.05b1ddbc.css.map": "/abzagencytest/static/css/main.05b1ddbc.css.map",
-    "main.910c7ea7.js.map": "/abzagencytest/static/js/main.910c7ea7.js.map",
+    "main.142c4c18.css.map": "/abzagencytest/static/css/main.142c4c18.css.map",
+    "main.b18a3cfe.js.map": "/abzagencytest/static/js/main.b18a3cfe.js.map",
     "787.3ae7b0b8.chunk.js.map": "/abzagencytest/static/js/787.3ae7b0b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05b1ddbc.css",
-    "static/js/main.910c7ea7.js"
+    "static/css/main.142c4c18.css",
+    "static/js/main.b18a3cfe.js"
   ]
 }
