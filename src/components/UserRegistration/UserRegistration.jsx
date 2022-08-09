@@ -98,6 +98,7 @@ function UserRegistration() {
     }
     //Validate photo
     if (inputValue.name === "photo") {
+      console.log(inputValue.files[0]);
       if (inputValue.files[0].size > 5e6) {
         setErrors({
           ...errors,
@@ -188,11 +189,11 @@ function UserRegistration() {
               </dd>
             </dl>
             <InputFile
-              inputType={"file"}
               inputName="photo"
               inputPlaceholder={"Upload your photo"}
               handleInputChange={handleInputChange}
               error={errors.photo}
+              photo={photo}
             />
             <Button
               value="Sign up"

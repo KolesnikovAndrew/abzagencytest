@@ -1,3 +1,5 @@
+$error_color: rgba(203, 61, 64, 1);
+
 .registration__form__container {
   display: flex;
   flex-direction: column;
@@ -21,10 +23,54 @@
 }
 
 input[name="role"] {
-  accent-color: #00bdd3;
+  accent-color: blue;
 }
-input[name="photo"] {
+// input[name="photo"] {
+//   width: 328px;
+//   height: 54px;
+//   border: 1px solid #d0cfcf;
+//   border-radius: 4px;
+// }
+
+.container {
+  width: 100%;
+}
+
+.button__wrap,
+.button__wrap__error {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #d0cfcf;
+  color: rgba(126, 126, 126, 1);
+  border-radius: 4px;
+  font-size: 17px;
   width: 328px;
   height: 54px;
-  background-color: #00bdd3;
+}
+
+.error__message {
+  color: $error_color;
+}
+
+.button {
+  z-index: 1;
+  display: inline-block;
+  width: 83px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.87);
+  border-radius: 4px 0px 0px 4px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+input[type="file"] {
+  display: none;
 }

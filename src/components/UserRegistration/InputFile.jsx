@@ -1,10 +1,22 @@
 import React from "react";
 import styles from "./UserRegistration.module.scss";
-function InputFile({ handleInputChange, error }) {
+function InputFile({ handleInputChange, error, photo }) {
   return (
-    <div>
-      <input type="file" id="photo" name="photo" onChange={handleInputChange} />
-      <span>{error}</span>
+    <div className={styles.container}>
+      <div className={error ? styles.button__wrap__error : styles.button__wrap}>
+        <label className={styles.button} for="upload">
+          Upload
+          <input
+            className={styles.photo}
+            name="photo"
+            id="upload"
+            type="file"
+            onChange={handleInputChange}
+          />
+        </label>
+        <div>{photo && photo.name}</div>
+      </div>
+      <span className={styles.error__message}>{error}</span>
     </div>
   );
 }
