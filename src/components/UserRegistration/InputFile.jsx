@@ -14,7 +14,9 @@ function InputFile({ handleInputChange, error, photo }) {
             onChange={handleInputChange}
           />
         </label>
-        <div>{photo && photo.name}</div>
+        <div className={styles.input__text}>
+          {photo ? photo.name : "Upload your photo"}
+        </div>
       </div>
       <span className={styles.error__message}>{error}</span>
     </div>

@@ -13,3 +13,21 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .header {
+    gap: 390px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    gap: 590px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .header {
+    gap: 856px;
+  }
+}

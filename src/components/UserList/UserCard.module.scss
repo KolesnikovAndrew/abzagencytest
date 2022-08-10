@@ -22,3 +22,24 @@
 .userCard__userInfo {
   line-height: 26px;
 }
+
+@media screen and (min-width: 768px) {
+  .userCard {
+    width: 344px;
+    height: 254px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .userCard {
+    width: 282px;
+    height: 254px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .userCard {
+    width: 370px;
+    height: 254px;
+  }
+}

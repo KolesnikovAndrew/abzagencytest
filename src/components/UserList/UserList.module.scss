@@ -23,3 +23,23 @@
   font-size: 16px;
   margin-top: 50px;
 }
+
+@media screen and (min-width: 768px) {
+  .userList {
+    width: 710px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .userList {
+    width: 904px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .userList {
+    width: 1168px;
+  }
+}

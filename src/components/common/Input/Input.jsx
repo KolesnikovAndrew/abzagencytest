@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import styles from "./Input.module.scss";
 
 function Input({
@@ -8,6 +8,7 @@ function Input({
   handleInputChange,
   error,
 }) {
+  useEffect(() => {});
   return (
     <div className={styles.input__box}>
       <input
@@ -16,7 +17,11 @@ function Input({
         type={inputType}
         onChange={handleInputChange}
       ></input>
-      <label className={styles.input__label}>{inputPlaceholder}</label>
+      <label
+        className={error ? styles.input__label__error : styles.input__label}
+      >
+        {inputPlaceholder}
+      </label>
       <span className={styles.error__message}>{error}</span>
     </div>
   );

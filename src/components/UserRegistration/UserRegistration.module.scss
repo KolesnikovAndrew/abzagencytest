@@ -23,17 +23,7 @@ $error_color: rgba(203, 61, 64, 1);
 }
 
 input[name="role"] {
-  accent-color: blue;
-}
-// input[name="photo"] {
-//   width: 328px;
-//   height: 54px;
-//   border: 1px solid #d0cfcf;
-//   border-radius: 4px;
-// }
-
-.container {
-  width: 100%;
+  accent-color: #00bdd3;
 }
 
 .button__wrap,
@@ -73,4 +63,8 @@ input[name="role"] {
 
 input[type="file"] {
   display: none;
+}
+
+.input__text {
+  margin-left: 15px;
 }

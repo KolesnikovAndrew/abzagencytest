@@ -4,9 +4,12 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   gap: 21px;
   padding: 40px 16px;
-  background-image: url("../../assets/hero-bg.png");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/hero.jpeg");
+  background-size: 350%;
+  background-position: 0 -320px;
   color: white;
   width: 360px;
   height: 500px;
@@ -31,4 +34,35 @@
   height: 34px;
   font-size: 16px;
   margin-top: 10px;
+}
+
+.hero__content {
+  width: 328px;
+  height: 323px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    width: 768px;
+    background-size: 200%;
+    background-position: 0 85%;
+  }
+  .hero__content {
+    width: 380px;
+    height: 257px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    width: 1024px;
+    height: 650px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .hero {
+    width: 1170px;
+    background-position: 0 80%;
+  }
 }
